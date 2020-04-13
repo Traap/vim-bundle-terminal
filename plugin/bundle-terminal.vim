@@ -58,4 +58,7 @@ endif
 if !has("gui_running")
   colorscheme desert
 endif
+
+" Turn off visual bell aka Flashing screen.
+set t_vb=
 " -------------------------------------------------------------------------- }}}
