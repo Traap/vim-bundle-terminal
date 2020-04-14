@@ -2,6 +2,7 @@
 if exists('g:loaded_bundle_terminal')
   finish
 endif
+let g:loaded_bundle_terminal=1
 " -------------------------------------------------------------------------- }}}
 " {{{ Terminal and GUI setup. 
 "
