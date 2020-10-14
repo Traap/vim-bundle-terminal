@@ -30,11 +30,15 @@ if has("gui_running")
 
   set guitablabel=%M\ %t
   hi Directory guifg=#8ac6f2
+
 else
 
   let &t_SI.="\e[5 q" "SI = Insert
   let &t_SR.="\e[4 q" "SR = Replace
   let &t_EI.="\e[6 q" "EI = Normal
+
+  " VIM color are not readable.
+"  colorscheme desert
 
 endif
 
@@ -55,8 +59,4 @@ if &term =~ '256color'
   set t_ut=
 endif
 
-" VIM color are not readable.
-if !has("gui_running")
-  colorscheme desert
-endif
 " -------------------------------------------------------------------------- }}}
