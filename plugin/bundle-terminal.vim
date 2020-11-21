@@ -1,4 +1,5 @@
 " {{{ bundle-terminal.vim 
+
 if exists('g:loaded_bundle_terminal')
   finish
 endif
