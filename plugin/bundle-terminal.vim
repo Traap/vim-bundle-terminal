@@ -50,7 +50,8 @@ if has('vim')
   if &term =~ '256color'
     set t_ut=
   endif
-
+else
+  tnoremap <Esc> <C-\><C-n>
 endif
 
 " No bells.  Period.
